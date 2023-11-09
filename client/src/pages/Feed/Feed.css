@@ -1,0 +1,70 @@
+.feed {
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+  }
+  
+  .feed::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .feed_header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+  }
+  
+  .feed_header>h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .feed>.loading {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .feed>.error {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .error>.display-error {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .error>.refresh-btn {
+    width: 120px;
+    padding: 12px;
+    border: none;
+    border-radius: 999px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--twitter-color);
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .announcement-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .announcement-box>.announcement-icon {
+    color: var(--twitter-color);
+    font-size: 32px;
+  }

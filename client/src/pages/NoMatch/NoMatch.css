@@ -1,0 +1,52 @@
+.noMatch {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-bg-color);
+}
+  
+.noMatch-wrapper {
+    padding: 20px 0px 10px 50px;
+  }
+
+  .twitter-logo {
+    height: 40px;
+    margin-left: 50px;
+  }
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+  }
+
+  .home-btn {
+    width: 180px;
+    height: 50px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fafafa;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--twitter-color);
+  }
+
+  .home-btn:hover {
+    opacity: 0.8;
+  }
+
+  .error-msg {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+  }

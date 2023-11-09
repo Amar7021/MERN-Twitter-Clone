@@ -1,0 +1,129 @@
+.auth {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-txt-color)
+}
+
+.auth .image-container {
+    padding: 10px;
+    flex: 1;
+}
+
+.auth .image-container img {
+    width: 400px;
+    height: 400px;
+}
+
+.auth .auth-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.auth-box .social-auth-container .top-heading {
+    font-size: 64px;
+}
+
+.auth-box .social-auth-container .sub-heading {
+    font-size: 32px;
+}
+
+.social-auth-container .social-auth-wrapper {
+    width: 300px;
+}
+
+.social-auth-wrapper .social-btn .google-btn {
+    margin: 0 auto;
+}
+
+.social-auth-wrapper .or {
+    margin:10px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.social-auth-wrapper .or::before {
+    content: "";
+    position: absolute;
+    min-width: 130px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    left: 0;
+    top: 50%;
+}
+
+.social-auth-wrapper .or::after {
+    content: "";
+    position: absolute;
+    min-width: 130px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    right: 0;
+    top: 50%;
+}
+
+.social-auth-wrapper .signup-btn {
+    margin: 0;
+}
+
+.social-auth-wrapper .signup-btn .btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(29, 155, 240);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.social-auth-wrapper .signup-btn .btn:hover {
+    opacity: 0.8;
+}
+
+.social-auth-wrapper .signup-btn .terms {
+    margin-top: 8px;
+    font-size: 10px;
+    color: rgb(113, 118, 123);
+}
+
+.social-auth-wrapper .signup-btn span {
+    color: rgb(29, 155, 240);
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.social-auth-wrapper .signup-btn span:hover {
+    text-decoration: underline;
+}
+
+.social-auth-wrapper .account-confirm {
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.social-auth-wrapper .modal-btn {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(113, 118, 123);
+    color: rgb(29, 155, 240);
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.social-auth-wrapper .modal-btn:hover {
+    background-color: rgba(91, 112, 131, 0.4);
+}
