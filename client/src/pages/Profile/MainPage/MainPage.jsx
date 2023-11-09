@@ -63,7 +63,7 @@ const MainPage = ({ user }) => {
     formData.set("image", image)
     try {
       const response = await axios.post(
-        "https://api.imgbb.com/1/upload?key=3c7bb2e14049b95ba492537204da8a6b",
+        `https://api.imgbb.com/1/upload?key=${process.env.REACT_APP_IMG_UPLD_API_KEY}`,
         formData
       )
       const url = response.data.data.display_url
@@ -90,7 +90,7 @@ const MainPage = ({ user }) => {
     formData.set("image", image)
     try {
       const response = await axios.post(
-        "https://api.imgbb.com/1/upload?key=3c7bb2e14049b95ba492537204da8a6b",
+        `https://api.imgbb.com/1/upload?key=${process.env.REACT_APP_IMG_UPLD_API_KEY}`,
         formData
       )
       const url = response.data.data.display_url

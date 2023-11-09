@@ -13,7 +13,7 @@ const PageLoading = () => {
     >
       <div>
         <span>
-          <CircularProgress />
+          <CircularProgress size={80} />
         </span>
       </div>
     </div>
