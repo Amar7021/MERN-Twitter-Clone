@@ -33,7 +33,6 @@
   font-size: 15px;
   width: 475px;
   padding: 10px;
-  min-height: fit-content;
   max-height: 280px;
   overflow-y: scroll;
   overflow-wrap: break-word;

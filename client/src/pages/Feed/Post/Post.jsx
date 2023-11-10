@@ -27,12 +27,6 @@ function Post({ p }) {
                 <VerifiedUserIcon className="post_badge" /> @{username}
               </span>
             </h3>
-            {/* <div className="vertical">
-              <MoreVertIcon className="vertical-icon" />
-              <div className="delete-box">
-                <span onClick={handleDelete}>Delete</span>
-              </div>
-            </div> */}
           </div>
           <div className="post_headerDescription">
             <p>{post}</p>
